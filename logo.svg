@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Fondo oscuro redondeado (#0E0E12) -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16161C"/>
+      <stop offset="1" stop-color="#0A0A0E"/>
+    </linearGradient>
+    <!-- Degradado sutil de la "L" (blanco → gris perla) -->
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#A0A0AD"/>
+    </linearGradient>
+    <!-- Suave brillo/resplandor bajo la L -->
+    <radialGradient id="glow" cx="0.5" cy="0.6" r="0.6">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Recorte a las esquinas redondeadas -->
+    <clipPath id="round">
+      <rect x="0" y="0" width="256" height="256" rx="56" ry="56"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="256" height="256" fill="url(#bg)"/>
+    <rect width="256" height="256" fill="url(#glow)"/>
+
+    <!-- "L" formada por una onda de luz: trazo vertical + base ondulada -->
+    <g fill="none" stroke="url(#stroke)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Trazo vertical de la L -->
+      <path d="M 92 70 L 92 176"/>
+      <!-- Base horizontal ondulada (aurora) de la L -->
+      <path d="M 92 176 Q 130 158 168 176"/>
+    </g>
+
+    <!-- Pequeña chispa de luz en el extremo superior izquierdo (aurora point) -->
+    <circle cx="92" cy="62" r="6" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+</svg>
