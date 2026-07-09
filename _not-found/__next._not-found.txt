@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[39756,["/LumizWeb/_next/static/chunks/ef68371b204617c3.js","/LumizWeb/_next/static/chunks/3fca2e4fffc6f277.js","/LumizWeb/_next/static/chunks/2f236954d6a65e12.js"],"default"]
-3:I[37457,["/LumizWeb/_next/static/chunks/ef68371b204617c3.js","/LumizWeb/_next/static/chunks/3fca2e4fffc6f277.js","/LumizWeb/_next/static/chunks/2f236954d6a65e12.js"],"default"]
-0:{"buildId":"Zh3f5UaQ94o3bb2hA8EEs","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[39756,["/LumizWeb/_next/static/chunks/ef68371b204617c3.js","/LumizWeb/_next/static/chunks/ed5a8fe23766db78.js","/LumizWeb/_next/static/chunks/2f236954d6a65e12.js"],"default"]
+3:I[37457,["/LumizWeb/_next/static/chunks/ef68371b204617c3.js","/LumizWeb/_next/static/chunks/ed5a8fe23766db78.js","/LumizWeb/_next/static/chunks/2f236954d6a65e12.js"],"default"]
+0:{"buildId":"pKVBNyapmseiGGfnkDlgs","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
